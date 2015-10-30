@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC8D65951BE3BE41002BAAD4 /* pk001.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8D65941BE3BE41002BAAD4 /* pk001.m */; };
 		DC95B35A1BB8560300DDD95A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC95B3591BB8560300DDD95A /* main.m */; };
 		DC95B35D1BB8560300DDD95A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC95B35C1BB8560300DDD95A /* AppDelegate.m */; };
 		DC95B3601BB8560300DDD95A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC95B35F1BB8560300DDD95A /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC8D65931BE3BE41002BAAD4 /* pk001.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pk001.h; sourceTree = "<group>"; };
+		DC8D65941BE3BE41002BAAD4 /* pk001.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pk001.m; sourceTree = "<group>"; };
 		DC95B3541BB8560300DDD95A /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC95B3581BB8560300DDD95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC95B3591BB8560300DDD95A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				DC95B3641BB8560300DDD95A /* Images.xcassets */,
 				DC95B3661BB8560300DDD95A /* LaunchScreen.xib */,
 				DC95B3571BB8560300DDD95A /* Supporting Files */,
+				DC8D65931BE3BE41002BAAD4 /* pk001.h */,
+				DC8D65941BE3BE41002BAAD4 /* pk001.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				DC95B3601BB8560300DDD95A /* ViewController.m in Sources */,
 				DC95B35D1BB8560300DDD95A /* AppDelegate.m in Sources */,
+				DC8D65951BE3BE41002BAAD4 /* pk001.m in Sources */,
 				DC95B35A1BB8560300DDD95A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +424,7 @@
 				DC95B3791BB8560300DDD95A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC95B37A1BB8560300DDD95A /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				DC95B37C1BB8560300DDD95A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
